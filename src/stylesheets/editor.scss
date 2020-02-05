@@ -1,0 +1,17 @@
+.editor {
+  background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  flex: 0 0 50%;
+  font-family: "Source Code Pro", Consolas, Monaco, monospace;
+  position: sticky;    
+}
+
+.preview {
+  background-color: darkslategrey;  
+  color: #fcfcfc;
+  flex: 0 0 50%;
+  height: 50vh;  
+  overflow: hidden auto;
+  padding: 1em 1rem 1em 2rem;
+}

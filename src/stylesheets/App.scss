@@ -1,3 +1,17 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  outline-color: rgba(0, 0, 0, 0.05);
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 25px;
+  width: 100vw;  
 }
